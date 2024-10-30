@@ -1,0 +1,58 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.row {
+    clear: both;
+    display:block;
+    overflow:hidden;
+    margin: 10px 0 10px 0;
+    padding: 5px;
+}
+
+.row:nth-child(even) {
+    background-color: #F7F7F7;
+}
+
+.col-ts-12 {
+    width: 100%;
+    display: inline-block;
+    clear: both;
+}
+
+.col-ts-9 {
+    width: 75%;
+    float: left;
+    display:inline-block;
+}
+
+.col-ts-3 {
+    width: 25%;
+    float: left;
+    display:inline-block;
+    text-align:right;
+}
+
+.col-ts-3 img,
+.col-3 img,
+.col-xs-12 img,
+.col-sm-3 img {
+    float: right;
+    margin: 5px 0 10px 0;
+}
+
+.testergebnis-col-1 {
+    font-weight: bold;
+}
+
+.btn {
+    display:block;
+    border: 1px solid #369;
+    border-radius: 3px;
+    background: #f7f7f7;
+    text-align:center;
+    margin: 5px;
+    padding:5px;
+    clear:both;
+}
